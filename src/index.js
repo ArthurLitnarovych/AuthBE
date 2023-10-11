@@ -17,7 +17,7 @@ app.use(morgan("dev"));
 app.use(express.json({ limit: "30mb", extended: true }));
 app.use(express.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors({ 
-    origin: "http://localhost:3000"
+    origin: "https://auth-6gebskii6-arthurlitnarovychs-projects.vercel.app/"
 }));
 
 app.use("/users", userRouter);
